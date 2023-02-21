@@ -1,0 +1,15 @@
+C:\Training\CsharpStorefront\bin\Debug\net6.0\CsharpStorefront.exe
+C:\Training\CsharpStorefront\bin\Debug\net6.0\CsharpStorefront.deps.json
+C:\Training\CsharpStorefront\bin\Debug\net6.0\CsharpStorefront.runtimeconfig.json
+C:\Training\CsharpStorefront\bin\Debug\net6.0\CsharpStorefront.dll
+C:\Training\CsharpStorefront\bin\Debug\net6.0\CsharpStorefront.pdb
+C:\Training\CsharpStorefront\obj\Debug\net6.0\CsharpStorefront.csproj.AssemblyReference.cache
+C:\Training\CsharpStorefront\obj\Debug\net6.0\CsharpStorefront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Training\CsharpStorefront\obj\Debug\net6.0\CsharpStorefront.AssemblyInfoInputs.cache
+C:\Training\CsharpStorefront\obj\Debug\net6.0\CsharpStorefront.AssemblyInfo.cs
+C:\Training\CsharpStorefront\obj\Debug\net6.0\CsharpStorefront.csproj.CoreCompileInputs.cache
+C:\Training\CsharpStorefront\obj\Debug\net6.0\CsharpStorefront.dll
+C:\Training\CsharpStorefront\obj\Debug\net6.0\refint\CsharpStorefront.dll
+C:\Training\CsharpStorefront\obj\Debug\net6.0\CsharpStorefront.pdb
+C:\Training\CsharpStorefront\obj\Debug\net6.0\CsharpStorefront.genruntimeconfig.cache
+C:\Training\CsharpStorefront\obj\Debug\net6.0\ref\CsharpStorefront.dll

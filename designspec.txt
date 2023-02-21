@@ -1,0 +1,53 @@
+Program to manage the inventory of a shop: 
+
+- How many of each item are in stock
+- Allow customer to add items to a basket and purchase all the items
+- Allow manager to order new stock
+- Produce a report of the stock and what got sold in the last week
+
+How would you split this up into relevant classes and how would they interact with each other? 
+
+Round #2: 
+- What if there are multiple warehouses? 
+- What if we want to delete a basket? 
+- What if the customer wants to remove from a basket? 
+
+-- 
+1. Class of all possible ItemTypes/categories that exist anywhere in the business
+
+2. Warehouses, Baskets, storefronts etc where actual items can be purchased/moved/transacted 
+--
+
+Class Item { 
+// methods that every item can use;
+}
+
+Class Apple extends Item {
+Store on a specific item: 
+- Where it's located: in a warehouse, in a store, in someone's basket, purchased (date purchased) 
+}
+
+Class of ItemType with following properties: 
+- Name of Item 
+- Amount of Item in stock 
+- setItemAmount Method for when the basket.itemsPurchasedMethod is used; 
+-buyNewStockMethod: Increase the amount of Item by a var amount; 
+
+List (or class?) of Inventory: 
+- stockReportMethod that uses item name and item in stock 
+- lastWeekPurchasesMethod: 
+     - creates a new empty List[] 
+     - iterate through the 'basket of baskets' i.e. all baskets from the last week
+       - if the item already exists in List, then increment quantity, otherwise add that item to the list and increment quantity
+
+Class of Basket with following properties:
+itemsInBasket: ItemType[]; 
+totalitemsinbasket: item => sum of item.number 
+- addItemMethod: 
+{if item is still in stock; if the class exists in basket already: increment by one; else add it to the Basket and increment by 1} 
+{error catch if item is more than stock}
+- *myItemClass* quantity: 0 
+- *myotherItemClass* quantity: 0
+- purchaseCompleted: bool; 
+- itemsPurchasedMethod: use setItemAmount in Item; set purchase completed to true; set itemsPurchasedDate 
+- itemsPurchasedDate - set when itemsPurchasedMethod is used; 
